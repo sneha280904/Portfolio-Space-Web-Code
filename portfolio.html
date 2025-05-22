@@ -2,269 +2,375 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sneha Gupta</title>
-    <link rel="stylesheet" href="portfolio.css">
-    <script src="portfolio.js"></script>
+  <!-- Meta and Title Information -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sneha Gupta - AI-ML Engineer</title>
 
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <!-- Stylesheets and Icons -->
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="logos/logo2.png" type="image/png">
 </head>
 
-<body class="sticky">
+<body>
 
-    <!-- ==================================
-              Header Section 
-    ====================================-->
-    <header class="header">
-        <a href="/portfolio.html"><img src="images/logo2.jpeg" alt="Our Main Logo" class="logo"></a>
+  <!-- ======================= NAVIGATION BAR ======================= -->
+  <!-- Main site navigation -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="logo">Sneha Gupta</a> <!-- Logo/Brand Name -->
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li> <!-- About Link -->
+        <li><a href="#experience">Experience</a></li> <!-- Experience Link -->
+        <li><a href="#education">Education</a></li> <!-- Education Link -->
+        <li><a href="#projects">Projects</a></li> <!-- Projects Link -->
+        <li><a href="#skills">Skills</a></li> <!-- Skills Link -->
+        <li><a href="#certificates">Certificate</a></li> <!-- Certificates Link -->
+        <li><a href="#contact">Contact</a></li> <!-- Contact Link -->
+        <li><a href="https://drive.google.com/file/d/18XU7FqNEAv1vWyXECqhzeNrU8nPTlABD/view?usp=sharing" target="_blank"
+            download>Resume</a></li> <!-- Resume Download Link -->
+      </ul>
+    </div>
+  </nav>
 
-        <!-- ==================================
-              Navbar Section 
-        ====================================-->
-        <nav class="navbar">
-            <ul class="navbar-lists">
-                <li><a href="/portfolio.html" class="navbar-link home-link">Home</a></li>
-                <li><a href="/portfolio_page.html" class="navbar-link portfoio-link">Portfoio</a></li>
-                <li><a href="/contact.html" class="navbar-link contact-link">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <!-- ==================================
-              Main Hero Section 
-    ====================================-->
-    <main>
-        <section class="section-hero section">
-            <div class="container grid grid-two-column" id="container">
-                <div class="section-hero-data section">
-                    <h1 class="hero-heading">Sneha Gupta</h1>
-                    <p class="hero-para">I am a student of B.Tech in Computer Science with a
-                        specialization in Artificial
-                        Intelligence Machine Learning. I love to explore new technologies
-                        and enhance my skills in AI and ML
-                        as well as in web and app
-                        development.</p>
-                    <div>
-                        <a href="contact.html" class="btn contact-me-btn">Contact Us</a>
-                    </div>
-                </div>
+  <!-- ======================= HERO SECTION ======================= -->
+  <!-- Introduction section with image and title -->
+  <section class="frame">
+    <div class="container">
+      <div class="image-section">
+        <img src="images/my-image.png" alt="Sneha Gupta"> <!-- Profile Image -->
+      </div>
+      <div class="text-section">
+        <h1 class="hero-section-h1">Sneha Gupta</h1> <!-- Main Heading -->
+        <p class="title hero-section-title">AI-ML Engineer</p> <!-- Subheading -->
+        <a href="mailto:sneha280904@gmail.com" class="button">Reach out</a> <!-- Email Button -->
+      </div>
+    </div>
+  </section>
 
-                <!-- Right Side -->
-                <div class="section-hero-image hero-image">
-                    <img src="images/hero.jpeg" alt="this is me Sneha Gupta" class="hero-image">
-                </div>
-            </div>
-        </section>
-    </main>
+  <!-- ======================= ABOUT SECTION ======================= -->
+  <!-- Personal introduction section -->
+  <section class="frame about-section" id="about">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        I'm <strong>Sneha Gupta</strong>, a B.Tech student specializing in <em>Artificial Intelligence and Machine
+          Learning</em>.
+        Passionate about real-time tech, I thrive on solving problems and learning through hands-on projects.
+      </p>
+      <p>
+        <strong>I am currently looking for opportunities to apply my skills and grow professionally.</strong>
+      </p>
+    </div>
 
-    <!-- ==================================
-              Our Biodata Section 
-    ====================================-->
-    <section class="section-bio-data section">
-        <div class="container grid grid-two-column" id="container">
-            <div class="bio-image">
-                <img src="images/biodata.jpeg" alt="My Bio Data image">
-            </div>
+    <div class="about-image">
+      <img src="images/about-me.png" alt="About Me image"> <!-- About Image -->
+    </div>
+  </section>
 
-            <!-- bio right side data -->
-            <div class="bio-data">
-                <h2 class="common-heading">My Bio-Data</h2>
-                <p class="common-para">
-                    I have completed my internship with Oasis Infobyte in Website Development and I have also completed
-                    the all 4 tasks provided by Forage TCS ESG.
-                </p>
-                <p class="common-para">
-                    I had done by Schooling from Kendriya Vidyalaya Chhatarpur(M.P.) with 91.2% and 88% in class 10th,
-                    12th CBSE Board respectively.
-                </p>
-                <div class="bio-data-stats">
-                    <div class="bio-stats">
-                        <h3 class="bio-data-sub-heading">HTML</h3>
-                        <div class="bio-progress-bar bio-progress-1">
-                            <span>95%</span>
-                        </div>
+  <!-- ======================= EXPERIENCE & EDUCATION SECTION ======================= -->
+  <!-- Work and academic background -->
+  <section class="experience-education" id="experience">
+    <div class="ee-grid" id="education">
+      <div class="ee-heading">
+        <h2>Experience<br>& Education</h2>
+        <!-- <h2>Education</h2> -->
+      </div>
 
-                    </div>
-                    <div class="bio-stats">
-                        <h3 class="bio-data-sub-heading">CSS</h3>
-                        <div class="bio-progress-bar bio-progress-2">
-                            <span>85%</span>
-                        </div>
-                    </div>
-                    <div class="bio-stats">
-                        <h3 class="bio-data-sub-heading">JavaScript</h3>
-                        <div class="bio-progress-bar bio-progress-3">
-                            <span>70%</span>
-                        </div>
-                    </div>
-                    <div class="bio-stats">
-                        <h3 class="bio-data-sub-heading">MERN</h3>
-                        <div class="bio-progress-bar bio-progress-4">
-                            <span>50%</span>
-                        </div>
-                    </div>
-                </div>
+      <div class="ee-container">
 
-                <div class="bio-data-btn btn">
-                    <a href="#">Download CV</a>
-                </div>
-    </section>
-
-    <!-- ==================================
-              Freelancing Section 
-    ====================================-->
-    <section class="section section-freelancing">
-        <div class="overlay"></div>
-        <div class="container">
-            <h2 class="freelancing">I am <span>available</span> for freelancing</h2>
-            <a href="contact.html" class="btn freelancing-btn">HIRE ME</a>
-        </div>
-    </section>
-
-    <!-- ==================================
-              Contact Us Section 
-    ====================================-->
-    <section class="section section-contact">
-        <div class="container">
-            <h2 class="common-heading">Contact Us</h2>
+        <!-- Internship Item -->
+        <div class="ee-item">
+          <div class="ee-year">Feb 2025 - May 2025</div> <!-- Internship Duration -->
+          <div class="ee-details">
+            <h3 class="ee-title">AIML Intern</h3> <!-- Role -->
+            <p class="ee-company">DhiyoTech Pvt. Ltd.</p> <!-- Company Name -->
+            <p class="ee-desc">
+              Built and fine-tuned an AI chatbot using Flask, PostgreSQL, and LLMs with LoRA optimization, from
+              scratch.<br>
+              Developed microservices for chatbot logic, data scraping, and secure API-based communication.
+            </p>
+          </div>
         </div>
 
-        <div class="section-contact-main contact-container form">
-            <form action="https://formspree.io/f/mqkonqge" method="POST">
-                <div class="grid grid-two-column">
-                    <div>
-                        <label for="name"></label>
-                        <input 
-                        type="text" 
-                        name="name" 
-                        placeholder="Name" 
-                        id="name"
-                        required
-                        autocomplete="off">
-                    </div>
-                    <div>
-                        <label for="email"></label>
-                        <input 
-                        type="email" 
-                        name="email" 
-                        placeholder="demo@gmail.com" 
-                        id="email"
-                        required
-                        autocomplete="off">
-                    </div>
-                </div>
-                
-                <div>
-                    <label for="subject"></label>
-                    <input 
-                    type="text" 
-                    name="subject" 
-                    placeholder="subject" 
-                    id="subject"
-                    required
-                    min="10"
-                    autocomplete="off">
-                </div>
-                <div>
-                    <label for="textarea"></label>
-                    <input 
-                    type="textarea" 
-                    name="name" 
-                    placeholder="Message" 
-                    id="textarea" 
-                    cols="30" 
-                    row="10"
-                    required
-                    min="20"
-                    autocomplete="off">
-                </div>
-                
-                <div>
-                    <input 
-                    type="submit" 
-                    name="submit" 
-                    id="submit" 
-                    class="btn">
-                </div>
-
-            </form>
+        <!-- B.Tech Education Item -->
+        <div class="ee-item">
+          <div class="ee-year">2022 - Present</div>
+          <div class="ee-details">
+            <h3 class="ee-title">B.Tech. in Artificial Intelligence and Machine Learning</h3>
+            <p class="ee-company">Oriental Institute of Science and Technology, Bhopal</p>
+            <p class="ee-desc">
+              Current CGPA: 8.12
+            </p>
+          </div>
         </div>
-    </section>
 
-    <!-- ==================================
-              Footer Section 
-    ====================================-->
-    <footer class="section-footer section footer">
-        <div class="container grid grid-three-column">
-            <div class="f-about">
-                <h3>About</h3>
-                <p>
-                    This page is about Sneha Gupta's portfolio page.
-                </p>
-            </div>
-            <!--  -->
-            <div class="f-links">
-                <h3>Links</h3>
-                <ul>
-                    <li>
-                        <ion-icon name="caret-forward-outline"></ion-icon>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <ion-icon name="caret-forward-outline"></ion-icon>
-                        <a href="#">Portfolio</a>
-                    </li>
-                    <li>
-                        <ion-icon name="caret-forward-outline"></ion-icon>
-                        <a href="#">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-            <!--  -->
-            <div class="f-address">
-                <h3>Have a Question?</h3>
-                <address>
-                    <div>
-                        <p><span>
-                                <ion-icon name="location-outline"></ion-icon>
-                            </span>Bhopal, India</p>
-                    </div>
-                    <div>
-                        <p><span>
-                                <ion-icon name="call-outline"></ion-icon>
-                            </span>
-                            <a href="tel:+916266258679">6266258679</a>
-                        </p>
-                    </div>
-                    <div>
-                        <p><span>
-                                <ion-icon name="mail-outline"></ion-icon>
-                            </span>
-                            <a href="mailto:sneha280904@gmail.com">sneha280904@gmail.com</a>
-                        </p>
-                    </div>
-                    <div>
-                        <p><span>
-                                <ion-icon name="logo-linkedin"></ion-icon>
-                            </span>
-                            <a href="https://www.linkedin.com/in/sneha-gupta-a78839261/">https://www.linkedin.com/in/sneha-gupta-a78839261/</a>
-                        </p>
-                    </div>
-                </address>
-            </div>
+        <!-- Senior Secondary Item -->
+        <div class="ee-item">
+          <div class="ee-year">2022</div>
+          <div class="ee-details">
+            <h3 class="ee-title">Senior Secondary</h3>
+            <p class="ee-company">Kendriya Vidyalaya Chhatarpur, CBSE Board</p>
+            <p class="ee-desc">
+              Percentage: 87.4%
+            </p>
+          </div>
         </div>
-    
 
-        <div class="f-credits">
-            <p>Made by Sneha</p>
+        <!-- Secondary Education Item -->
+        <div class="ee-item">
+          <div class="ee-year">2020</div>
+          <div class="ee-details">
+            <h3 class="ee-title">Secondary</h3>
+            <p class="ee-company">Kendriya Vidyalaya Chhatarpur, CBSE Board</p>
+            <p class="ee-desc">
+              Percentage: 91.3%
+            </p>
+          </div>
         </div>
-    </footer>
-    <!-- <div class="scrollToTop">
-        <ion-icon name="arrow-up-outline" class="scroll-top"></ion-icon>
-    </div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= PYTHON-AIML PROJECTS SECTION ======================= -->
+  <section class="project-section" id="projects">
+    <h1 class="section-title">Python-AIML Projects</h1>
+    <div class="work-grid">
+
+      <div class="work-item">
+        <!-- Project 1: NeuraChat -->
+        <img src="projects/Neura-Chat.jpg" alt="Neura-Chat" />
+        <h3>NeuraChat: LLM-Powered Chatbot</h3>
+        <p><strong>NeuraChat</strong> is a scalable conversational AI system powered by fine-tuned LLMs like Mistral and
+          Phi-2, built using Flask microservices and PostgreSQL. It supports modular deployment, secure APIs, and
+          advanced NLP through tools like LoRA, web scraping, and virtual machine simulations.</p>
+      </div>
+
+      <div class="work-item">
+        <!-- Project 2: Voca-Bot -->
+        <img src="projects/Voce-Bot.jpg" alt="Voca-Bot" />
+        <h3>Voca-Bot : Virtual Voice Assistant </h3>
+        <p><strong>Voca-Bot</strong> is an AI-powered virtual voice assistant that helps manage tasks, set reminders,
+          and provide real-time info using voice commands. It supports multitasking, customizable commands, and
+          hands-free interaction for a seamless user experience.</p>
+      </div>
+
+      <div class="work-item">
+        <!-- Project 3: Sentilytics -->
+        <img src="projects/Sentilytics.jpg" alt="Sentilytics" />
+        <h3>Sentilytics: Social Media Sentiment Analyzer</h3>
+        <p><strong>Sentilytics</strong> is a sentiment analysis tool that uses NLP and machine learning to classify
+          social media content as Positive, Negative, or Neutral. It offers real-time or historical analysis with visual
+          insights, and is built using Python, Scikit-learn, and data visualization libraries.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="project-section-lower">
+    <!-- ======================= DATA ANALYSIS PROJECTS SECTION ======================= -->
+    <h1 class="section-title-lower">Data-Analysis Projects</h1>
+    <div class="work-grid">
+
+      <!-- Project 1: Blinkit -->
+      <div class="project-section-lower-item">
+        <img src="projects/BlinkIt-Data-Analysis.jpg" alt="BlinkIt-Data-Analysis" />
+        <h3>Blinkit Insights Lab</h3>
+        <p><strong>Blinkit Insights Lab</strong> is a data analysis tool that uncovers customer behavior, sales trends,
+          and product performance using Blinkit's dataset. It includes data cleaning, EDA, visualizations, and
+          predictive modeling to support business decision-making.</p>
+      </div>
+
+      <!-- Project 2: IPL Trends -->
+      <div class="project-section-lower-item">
+        <img src="projects/IPL-Trends-and-Patterns.jpg" alt="IPL-Trends-and-Patterns" />
+        <h3>IPL-Trends-and-Patterns</h3>
+        <p><strong>IPL-Trends-and-Patterns</strong> is a data analysis project uncovering insights from IPL history,
+          analyzing team performance, player impact, and winning strategies. Using EDA, visualizations, and statistical
+          methods, it reveals patterns that shape the league’s competitive dynamics.</p>
+      </div>
+
+      <!-- Project 3: Slice of Sales -->
+      <div class="project-section-lower-item">
+        <img src="projects/Slice-of-Sales-Pizza-Edition.jpg" alt="Slice-of-Sales-Pizza-Edition" />
+        <h3>Slice of Sales: Pizza Edition</h3>
+        <p><strong>Slice of Sales: Pizza Edition</strong> is a data analysis project that uncovers sales trends,
+          customer preferences, and top-performing products using pizza order data. It leverages EDA and interactive
+          visualizations to deliver actionable insights for improving business strategy.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= SKILLS SECTION ======================= -->
+  <section class="skills-section" id="skills">
+    <h2>Skills</h2>
+    <div class="skills-wrapper">
+      <div class="skills-grid">
+        <!-- Skill Cards: Programming, Technical, Data, Tools, etc. -->
+        <div class="skill-card">
+          <h3>Programming Languages</h3>
+          <p>C++, Python</p>
+        </div>
+        <div class="skill-card">
+          <h3>Technical</h3>
+          <p>DSA, Python, Excel, Power BI, OOPS, API Development, Microservices</p>
+        </div>
+        <div class="skill-card">
+          <h3>Data Analysis</h3>
+          <p>Data cleaning, Exploratory Data Analysis, Data Visualization</p>
+        </div>
+        <div class="skill-card">
+          <h3>Libraries/Frameworks</h3>
+          <p>Pandas, Matplotlib, Seaborn, bs4, Scrapy, Selenium, Tensorflow, Keras, Streamlit, Flask</p>
+        </div>
+        <div class="skill-card">
+          <h3>ML, DL, NLP & AI</h3>
+          <p>Machine Learning, Deep Learning, NLP, AI</p>
+        </div>
+        <div class="skill-card">
+          <h3>Database</h3>
+          <p>SQL, PostgreSQL</p>
+        </div>
+        <div class="skill-card">
+          <h3>Web Data Visualization</h3>
+          <p>HTML, CSS, JavaScript (basic)</p>
+        </div>
+        <div class="skill-card">
+          <h3>Soft Skills</h3>
+          <p>Effective communication, Team collaboration</p>
+        </div>
+        <div class="skill-card">
+          <h3>Version Control</h3>
+          <p>Git, GitHub</p>
+        </div>
+        <div class="skill-card">
+          <h3>Tools</h3>
+          <p>Jupyter Notebook, VS Code, Anaconda, Postman</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= CERTIFICATES SECTION ======================= -->
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <div class="certificate-row">
+
+      <!-- Certificate Items -->
+      <div class="certificate-item">
+        <img src="certificates/NPTEL-Python-for-Data-Science.jpg" alt="Python for Data Science" />
+        <a href="https://drive.google.com/file/d/15nyQuf3s5ic9a31J1GF7NG6Lk0fbmjOJ/view?usp=sharing" target="blank">
+          <p>Python for Data Science</p>
+        </a>
+      </div>
+
+      <!-- Certificate Items -->v
+      <div class="certificate-item">
+        <img src="certificates/NPTEL-Machine-Learning-Specialization.jpg" alt="Machine Learning Specialization" />
+        <a href="https://drive.google.com/file/d/1Ey0-mkDHzmf7zjdfqTrPefa9GMDeinEk/view?usp=drive_link" target="_blank">
+          <p>Machine Learning Specialization</p>
+        </a>
+      </div>
+
+      <!-- Certificate Items -->
+      <div class="certificate-item">
+        <img src="certificates/Data-Analysis-and-Visualization-Foundations-Specialization-Certificate.png" alt="z" />
+        <a href="https://drive.google.com/file/d/1ad9_-eih071g_16d0u8IcV1d-DzrruF4/view?usp=drive_link" target="_blank">
+          <p>Coursera Data Analysis and Visualization Foundations Specialization Certificate</p>
+        </a>
+      </div>
+
+      <!-- Certificate Items -->
+      <div class="certificate-item">
+        <img src="certificates/IBM-Data-Analyst-Professional-Course-Certificate.png"
+          alt="Coursera IBM Data Analyst Professional Course Certificate" />
+        <a href="https://drive.google.com/file/d/1clDhVw9p5MBwiVjxNL8jB32HIRUyFfPV/view?usp=drive_link" target="_blank">
+          <p>Coursera IBM Data Analyst Professional Course Certificate</p>
+        </a>
+      </div>
+    </div>
+    <div class="certificate-row">
+      <!-- Certificate Items -->
+      <div class="certificate-item">
+        <img src="certificates/DhiyoTech-Experience-Certificate.jpg" alt="DhiyoTech Internship Certificate" />
+        <a href="https://drive.google.com/file/d/1mT6nXLEx5Szq7puidIdHmfS-eeGZPOWV/view?usp=drive_link" target="_blank">
+          <p>DhiyoTech Internship Certificate</p>
+        </a>
+      </div>
+
+      <!-- Certificate Items -->
+      <div class="certificate-item">
+        <img src="certificates/Accenture-North-America-Data-Analyst-Certificate.png"
+          alt="Forage Accenture North America Data Analyst Certificate" />
+        <a href="https://drive.google.com/file/d/1bnM08tP11Jl1Mobn4wKBQSb9TS8gspLW/view?usp=drive_link" target="_blank">
+          <p>Forage Accenture North America Data Analyst Certificate</p>
+        </a>
+      </div>
+
+      <!-- Certificate Items -->
+      <div class="certificate-item">
+        <img src="certificates/PwC-Switzerland-Power-BI-Certificate.png"
+          alt="Forage PwC Switzerland Power BI Certificate.png" />
+        <a href="https://drive.google.com/file/d/1sZ7ohCrigQ9uwOKgEDK4J1hLSLiHhETB/view?usp=drive_link" target="_blank">
+          <p>Forage PwC Switzerland Power BI Certificate</p>
+        </a>
+      </div>
+
+      <!-- Certificate Items -->
+      <div class="certificate-item">
+        <img src="certificates/BCG-X-Data-Science-Certificate.png" alt="Forage BCG X Data Science Certificate" />
+        <a href="https://drive.google.com/file/d/1gxkbe1Qr2FiW2U8YTRvjVnxB5YWBmTjb/view?usp=sharing" target="_blank">
+          <p>Forage BCG X Data Science Certificate</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= CONTACT SECTION ======================= -->
+  <section class="contact-section" id="contact">
+    <div class="contact-container">
+      <div class="contact-image">
+        <!-- Profile picture -->
+        <img src="images/my-image.png" alt="Sneha Gupta" />
+      </div>
+      <div class="contact-details">
+        <h2>Reach out</h2>
+        <p class="name">Sneha Gupta</p>
+        <a href="mailto:sneha280904@gmail.com">sneha280904@gmail.com</a> <!-- Email Link -->
+        <h3>Connect with me</h3>
+        <!-- Social Links -->
+        <div class="social-icons">
+          <a href="https://www.instagram.com/snehagupta_._" target="_blank"><i class="fab fa-instagram"></i></a>
+          <!-- <a href="#" target="_blank"><i class="fab fa-twitter"></i> -->
+          <a href="https://www.facebook.com/profile.php?id=100056393781813" target="_blank"><i
+              class="fab fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/sneha-gupta-a78839261" target="_blank"><i
+              class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/sneha280904" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://leetcode.com/u/sneha_04/" target="_blank" id="leetcode">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode"
+              style="height: 24px; vertical-align: middle;">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // NAVBAR SCROLL SCRIPT
+    const navbar = document.querySelector('.navbar');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 0) {
+        navbar.classList.add('scrolled');// Add scrolled class on scroll
+      } else {
+        navbar.classList.remove('scrolled'); // Remove scrolled class if at top
+      }
+    });
+  </script>
+
 
 </body>
 
