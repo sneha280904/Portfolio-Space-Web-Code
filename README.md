@@ -1,7 +1,5 @@
 # PortfolioSpace 🎨
 
-Note: The source code for this project has been made private intentionally.
-
 Welcome to **PortfolioSpace** – the digital showcase of my professional journey! 🚀
 
 PortfolioSpace is a personal portfolio website designed to present my work, skills, and experiences in an engaging and visually appealing way. Whether you're here to check out my projects or learn more about my background, this portfolio is a reflection of my creativity and expertise. 💼✨
@@ -13,7 +11,7 @@ PortfolioSpace is a personal portfolio website designed to present my work, skil
 - **Modern Design**: A sleek, user-friendly interface with smooth animations.
 
 ## Technologies Used 💻
-- HTML, CSS, JavaScript
-- Front-end: React.js / Vue.js (Optional, if needed)
-- Animations: AOS (Animate On Scroll) for smooth effects
+- HTML 
+- CSS 
+- JavaScript 
 
