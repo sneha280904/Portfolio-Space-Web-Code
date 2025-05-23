@@ -91,6 +91,52 @@ body {
 
 
 /* =======================
+   Drop-Down Styling
+========================== */
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown button styling */
+.dropbtn {
+  text-decoration: none;
+  color: #fff; /* Adjust color to your theme */
+  padding: 14px 16px;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #474747 !important; /* Adjust dropdown background */
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+  color: #ffffff !important;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Hover effect for links */
+.dropdown-content a:hover {
+  background-color: #222121 !important; /* Adjust hover color */
+}
+
+/* Show the dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+/* =======================
    Shared Layout Components
 ========================== */
 .container {
@@ -743,7 +789,8 @@ h3 {
 #about,
 #experience,
 #education,
-#projects,
+#python-projects,
+#data-projects,
 #contact,
 #skills,
 #certificates,
